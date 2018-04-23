@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta charset="utf-8">
+		<!--모바일 화면 맞추기 : 필요하면 사용-->
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+		<!--모바일 최적화 : 화면 자동확대, 터치 딜레이 제거 (시작)-->
+		<script type="text/javascript" src="../function/tool/subtool.js"></script>
+		<script type="text/javascript" src="../function/tool/fastclick.js"></script>
+		<!--모바일 최적화 : 화면 자동확대, 터치 딜레이 제거 (끝)-->
+
+		<link rel="stylesheet" type="text/css" href="./css/webnovel.css" />
+
+		<title>웹 드라마</title>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="maintitle"></div>
+			<div id="screenframe">
+				<div id="noticescreen">
+					<div id="noticebox">
+						<div id="noticescreen">
+							<div id="noticetext">현재 모바일에서는 음악이 들리지 않습니다.<br>(향후 지원 예정)</div>
+							<button id="noticebutton">확인</button>
+						</div>
+					</div>
+				</div>
+				<div id="titlescreen">
+					<div id="title"></div>
+					<button id="start">시작하기</button>
+				</div>
+				<div id="mainscreen">
+					<div id="cha1"></div>
+					<div id="cha2"></div>
+					<div id="cha3">
+						<div id="dialog_nameframe"></div>
+						<div id="dialog_textframe"></div>
+					</div>
+				</div>
+			</div>
+			<iframe id="youtube" src="https://www.youtube.com/embed/vhqnIWyNV6c?rel=0&amp;controls=0&amp;autoplay=1"></iframe>
+			<div id="buttonframe"></div>
+		</div>
+
+		<!--외부 보조 라이브러리-->
+		<script src="../function/tool/sweetalert2/dist/sweetalert2.min.js"></script>
+		<link rel="stylesheet" href="../function/tool/sweetalert2/dist/sweetalert2.css">
+			<!-- for IE support -->
+			<script src="../function/tool/sweetalert2/node_modules/es6-promise-polyfill/promise.min.js"></script>
+		<!--외부 보조 라이브러리-->
+
+		<script type="text/javascript" src="./data/screenplay.js"></script>
+		<script type="text/javascript" src="./data/resource.js"></script>
+		<script type="text/javascript" src="./js/webnovel.js"></script>
+
+
+	</body>
+</html>

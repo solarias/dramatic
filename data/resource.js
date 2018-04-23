@@ -1,0 +1,109 @@
+﻿
+var titlelist = [
+	{
+		"background":"카라잔오프닝",
+		"color":"black",
+		"audio":"카라잔오프닝",
+		"title":"안두인의 최후"
+	}
+];
+
+var audiolist = [
+	{
+		"name":"none",
+		"url":"https://www.youtube.com/embed/vhqnIWyNV6c",
+		"start":""
+	},
+	{
+		"name":"카라잔오프닝",
+		"url":"https://www.youtube.com/embed/U0SBlSFBeSg",
+		"start":""
+	},
+	{
+		"name":"역전대기",
+		"url":"https://www.youtube.com/embed/FnmEnjWy288",
+		"start":""
+	},
+	{
+		"name":"역전추궁",
+		"url":"https://www.youtube.com/embed/hf_D3pK6LVI",
+		"start":""
+	},
+	{
+		"name":"역전승리",
+		"url":"https://www.youtube.com/embed/jPJE4l6j-hg",
+		"start":""
+	},
+	{
+		"name":"역전법사",
+		"url":"https://www.youtube.com/embed/SNeykTvJ1hc",
+		"start":""
+	}
+];
+
+var imagelist = [
+	{
+		"name":"카라잔오프닝",
+		"url":"https://i.ytimg.com/vi/a3xnxf-ZH34/maxresdefault.jpg"
+	},
+	{
+		"name":"카라잔",
+		"url":"http://kstatic.inven.co.kr/upload/2018/04/19/bbs/i13870367333.png"
+	},
+	{
+		"name":"메디브",
+		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/39841.png"
+	},
+	{
+		"name":"모로스",
+		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/39453.png"
+	},
+	{
+		"name":"backCourtAll",
+		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/c/c1/Screenshot-court.png/revision/latest/scale-to-width-down/185?cb=20071215141755"
+	},
+	{
+		"name":"backCourtHammer",
+		"url":"https://chrisxfictioncorner.files.wordpress.com/2016/11/aceattorneyhammer.png?w=636"
+	},
+	{
+		"name":"backCourtJudge",
+		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/4/48/Judges-bench.png/revision/latest/scale-to-width-down/185?cb=2018031403190"
+	},
+	{
+		"name":"backCourtProsecutor",
+		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/3/3b/Prosecution.png/revision/latest/scale-to-width-down/185?cb=2018031403220"
+	},
+	{
+		"name":"backCourtAccused",
+		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/c/c8/Stand.png/revision/latest/scale-to-width-down/185?cb=2018031403222"
+	},
+	{
+		"name":"backCourtWitness1",
+		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/c/c8/Stand.png/revision/latest/scale-to-width-down/185?cb=20180314032222"
+	},
+	{
+		"name":"backCourtWitness2",
+		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/c/c8/Stand.png/revision/latest/scale-to-width-down/185?cb=20180314032222"
+	},
+	{
+		"name":"backCourtJudge2",
+		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/4/48/Judges-bench.png/revision/latest/scale-to-width-down/185?cb=2018031403190"
+	},
+	{
+		"name":"메디브",
+		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/2829.png"
+	},
+	{
+		"name":"샐리",
+		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/41118.png"
+	},
+	{
+		"name":"안두인",
+		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/813.png"
+	},
+	{
+		"name":"발리라",
+		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/930.png"
+	}
+];
