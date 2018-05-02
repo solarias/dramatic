@@ -1172,7 +1172,7 @@ var script = [
 		"image3":"",
 		"bgm":"역전추궁",
 		"name":"제이나",
-		"text":"이번 여관주인배 하스스톤 대회 결승전에서 안두인을 상대했습니다.",
+		"text":"<span style='color:lime;'>이번 여관주인배 하스스톤 대회 결승전에서 안두인을 상대했습니다.</span>",
 		"next":"",
 		"select":""
 	}, 
@@ -1184,7 +1184,7 @@ var script = [
 		"image3":"",
 		"bgm":"",
 		"name":"제이나",
-		"text":"안두인은 미드레인지 템포 용사제였고, 전 템포법사였지요.",
+		"text":"<span style='color:lime;'>안두인은 미드레인지 템포 용사제였고, 전 템포법사였지요.</span>",
 		"next":"",
 		"select":""
 	}, 
@@ -1196,7 +1196,7 @@ var script = [
 		"image3":"",
 		"bgm":"",
 		"name":"제이나",
-		"text":"안두인은 강력한 용군단으로 절 몰아붙였지만 저 덱에 비할 바는 아니였지요.",
+		"text":"<span style='color:lime;'>안두인은 강력한 용군단으로 절 몰아붙였지만 저 덱에 비할 바는 아니였지요.</span>",
 		"next":"",
 		"select":""
 	}, 
@@ -1208,7 +1208,7 @@ var script = [
 		"image3":"",
 		"bgm":"",
 		"name":"제이나",
-		"text":"전 '그 카드'로 안두인의 공격을 버텨냈고, 결국 불덩이 작렬로 마무리 일격을 날렸지요.",
+		"text":"<span style='color:lime;'>전 '그 카드'로 안두인의 공격을 버텨냈고, 결국 불덩이 작렬로 마무리 일격을 날렸지요.</span>",
 		"next":"",
 		"select":""
 	}, 
@@ -1688,7 +1688,7 @@ var script = [
 		"image3":"",
 		"bgm":"",
 		"name":"제이나",
-		"text":"때는 경기 중반이었습니다. 전 제 키카드를 꺼냈습니다.",
+		"text":"<span style='color:lime;'>때는 경기 중반이었습니다. 전 제 키카드를 꺼냈습니다.</span>",
 		"next":"",
 		"select":""
 	}, 
@@ -1700,7 +1700,7 @@ var script = [
 		"image3":"",
 		"bgm":"",
 		"name":"제이나",
-		"text":"<span style='color:orange;'>토키</span> 말이에요, 토키. 토키가 뭔지는 아시지요?",
+		"text":"<span style='color:lime;'><span style='color:orange;'>토키</span> 말이에요, 토키. 토키가 뭔지는 아시지요?</span>",
 		"next":"",
 		"select":""
 	}, 
@@ -1712,7 +1712,7 @@ var script = [
 		"image3":"",
 		"bgm":"",
 		"name":"제이나",
-		"text":"전 토키로 야생 전설을 뽑았어요. 이번엔 사라아드가 나왔지요.",
+		"text":"<span style='color:lime;'>전 토키로 야생 전설을 뽑았어요. 이번엔 사라아드가 나왔지요.</span>",
 		"next":"",
 		"select":""
 	}, 
@@ -1724,7 +1724,7 @@ var script = [
 		"image3":"",
 		"bgm":"",
 		"name":"제이나",
-		"text":"사라아드를 꺼내고 영능을 사용한 그 순간! 제 손에 얼음방패가 나왔지요.",
+		"text":"<span style='color:lime;'>사라아드를 꺼내고 영능을 사용한 그 순간! 제 손에 얼음방패가 나왔지요.</span>",
 		"next":"",
 		"select":""
 	}, 
@@ -1736,7 +1736,7 @@ var script = [
 		"image3":"",
 		"bgm":"",
 		"name":"제이나",
-		"text":"비록 사라아드는 그 다음턴 바로 죽었지만, 전 얼음방패 덕분에 경기에서 이길 수 있었습니다.",
+		"text":"<span style='color:lime;'>비록 사라아드는 그 다음턴 바로 죽었지만, 전 얼음방패 덕분에 경기에서 이길 수 있었습니다.</span>",
 		"next":"",
 		"select":""
 	}, 
@@ -1794,7 +1794,7 @@ var script = [
 		"image1":"여관주인",
 		"image2":"",
 		"image3":"",
-		"bgm":"none",
+		"bgm":"역전위기",
 		"name":"여관주인",
 		"text":"자, 경관님께서 졸고 계신 동안 토키가 야생 카드를 뽑아줬습니다.",
 		"next":"",
@@ -1926,7 +1926,7 @@ var script = [
 		"image1":"안두인",
 		"image2":"",
 		"image3":"",
-		"bgm":"역전위기",
+		"bgm":"",
 		"name":"안두인",
 		"text":"경관님! 제이나의 말에 넘어가면 안됩니다!",
 		"next":"",

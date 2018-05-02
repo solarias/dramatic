@@ -92,7 +92,8 @@ function generate_script() {
             dialog_firsttextframe = document.createElement("div");
             dialog_firsttextframe.id = "dialog_firsttextframe";
             dialog_firsttextframe.style.height = "auto";
-            dialog_firsttextframe.style.transition = "opacity 1s linear 2s";
+            dialog_firsttextframe.style.opacity = "0.01";
+            dialog_firsttextframe.style.transition = "opacity 1s linear";
 
             $("#dialog_textframe").appendChild(dialog_firsttextframe);
         }
@@ -173,10 +174,11 @@ function generate_interact() {
         setTimeout(function() {
             $("#titlescreen").style.display = "none";
             $("#mainscreen").style.display = "block";
+            void $("#dialog_firsttextframe").offsetWidth;
+            $("#dialog_firsttextframe").style.opacity = "1";
         }, 2000);
         $("#dialog_firsttextframe").style.width = "100%";
         $("#dialog_firsttextframe").style.height = "auto";
-        $("#dialog_firsttextframe").style.opacity = "1";
 
         //배경화면
         if (line.background === "none")
@@ -188,10 +190,13 @@ function generate_interact() {
             $("#cha1").style.backgroundImage = "";
         else if (line.image1 !== "")
             $("#cha1").style.backgroundImage = "url(" + getImage(line.image1) + ")";
-        if (line.image2 === "none")
+        if (line.image2 === "none") {
             $("#cha2").style.backgroundImage = "";
-        else if (line.image2 !== "")
+            $("#cha2").className = "";
+        } else if (line.image2 !== "") {
             $("#cha2").style.backgroundImage = "url(" + getImage(line.image2) + ")";
+            $("#cha2").className = "animated jello";
+        }
         if (line.image3 === "none")
             $("#cha3").style.backgroundImage = "";
         else if (line.image3 !== "")
@@ -249,10 +254,13 @@ function generate_interact() {
                 $("#cha1").style.backgroundImage = "";
             else if (line.image1 !== "")
                 $("#cha1").style.backgroundImage = "url(" + getImage(line.image1) + ")";
-            if (line.image2 === "none")
+            if (line.image2 === "none") {
                 $("#cha2").style.backgroundImage = "";
-            else if (line.image2 !== "")
+                $("#cha2").className = "";
+            } else if (line.image2 !== "") {
                 $("#cha2").style.backgroundImage = "url(" + getImage(line.image2) + ")";
+                $("#cha2").className = "animated jello";
+            }
             if (line.image3 === "none")
                 $("#cha3").style.backgroundImage = "";
             else if (line.image3 !== "")
