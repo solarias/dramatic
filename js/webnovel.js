@@ -197,8 +197,14 @@ function generate_interact() {
         else if (line.image3 !== "")
             $("#cha3").style.backgroundImage = "url(" + getImage(line.image3) + ")";
         //이름
-        if (line.name !== "")
+        if (line.name !== "") {
             $("name_" + line.name).style.display = "block";
+            $("#dialog_nameframe").style.visibility = "visible";
+        } else {
+            $("#dialog_nameframe").style.visibility = "hidden";
+
+        }
+
         //다음 버튼
         setTimeout(function() {
             $("#button_" + line.id.toString()).style.display = "block";
@@ -254,16 +260,23 @@ function generate_interact() {
             //이름
             if (data.name !== "") {
                 $("#name_" + data.name).style.display = "none";
+                $("#dialog_nameframe").style.visibility = "hidden";
             }
             if (line.name !== "") {
                 $("#name_" + line.name).style.display = "block";
+                $("#dialog_nameframe").style.visibility = "visible";
             }
 
             //다음 대사
-            $("#text_" + line.id).style.width = "100%";
-            $("#text_" + line.id).style.height = "100%";
-            void $("#text_" + line.id).offsetWidth;
-            $("#text_" + line.id).style.opacity = "1";
+            if (line.text.length > 0) {
+                $("#dialog_textframe").style.visibility = "visible";
+                $("#text_" + line.id).style.width = "100%";
+                $("#text_" + line.id).style.height = "100%";
+                void $("#text_" + line.id).offsetWidth;
+                $("#text_" + line.id).style.opacity = "1";
+            } else {
+                $("#dialog_textframe").style.visibility = "hidden";
+            }
             //다음 버튼
             $("#button_" + line.id).style.display = "block";
 

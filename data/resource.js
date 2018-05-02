@@ -4,7 +4,7 @@ var titlelist = [
 		"background":"카라잔오프닝",
 		"color":"black",
 		"audio":"카라잔오프닝",
-		"title":"안두인의 최후"
+		"title":"역전의 하스스톤"
 	}
 ];
 
@@ -13,30 +13,65 @@ var audiolist = [
 		"name":"none",
 		"url":"https://www.youtube.com/embed/vhqnIWyNV6c",
 		"start":""
-	},
+	}, 
 	{
 		"name":"카라잔오프닝",
 		"url":"https://www.youtube.com/embed/U0SBlSFBeSg",
 		"start":""
-	},
+	}, 
+	{
+		"name":"역전휴식",
+		"url":"https://www.youtube.com/embed/RlgXjzeGH58",
+		"start":""
+	}, 
 	{
 		"name":"역전대기",
 		"url":"https://www.youtube.com/embed/FnmEnjWy288",
 		"start":""
-	},
+	}, 
 	{
 		"name":"역전추궁",
 		"url":"https://www.youtube.com/embed/hf_D3pK6LVI",
 		"start":""
-	},
+	}, 
 	{
 		"name":"역전승리",
 		"url":"https://www.youtube.com/embed/jPJE4l6j-hg",
 		"start":""
-	},
+	}, 
 	{
-		"name":"역전법사",
-		"url":"https://www.youtube.com/embed/SNeykTvJ1hc",
+		"name":"역전위기",
+		"url":"https://www.youtube.com/embed/5ZC16wTh3jM",
+		"start":""
+	}, 
+	{
+		"name":"역전로직",
+		"url":"https://www.youtube.com/embed/0muwEn_FQYE",
+		"start":""
+	}, 
+	{
+		"name":"역전등장",
+		"url":"https://www.youtube.com/embed/_I34nshlOPk",
+		"start":""
+	}, 
+	{
+		"name":"역전마무리",
+		"url":"",
+		"start":""
+	}, 
+	{
+		"name":"역전끝",
+		"url":"",
+		"start":""
+	}, 
+	{
+		"name":"선술집",
+		"url":"https://www.youtube.com/embed/IDcvooDJ48M",
+		"start":""
+	}, 
+	{
+		"name":"경관",
+		"url":"https://www.youtube.com/embed/igVn2DkMLR8",
 		"start":""
 	}
 ];
@@ -45,65 +80,97 @@ var imagelist = [
 	{
 		"name":"카라잔오프닝",
 		"url":"https://i.ytimg.com/vi/a3xnxf-ZH34/maxresdefault.jpg"
-	},
-	{
-		"name":"카라잔",
-		"url":"http://kstatic.inven.co.kr/upload/2018/04/19/bbs/i13870367333.png"
-	},
-	{
-		"name":"메디브",
-		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/39841.png"
-	},
-	{
-		"name":"모로스",
-		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/39453.png"
-	},
+	}, 
 	{
 		"name":"backCourtAll",
 		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/c/c1/Screenshot-court.png/revision/latest/scale-to-width-down/185?cb=20071215141755"
-	},
+	}, 
 	{
 		"name":"backCourtHammer",
 		"url":"https://chrisxfictioncorner.files.wordpress.com/2016/11/aceattorneyhammer.png?w=636"
-	},
+	}, 
 	{
 		"name":"backCourtJudge",
 		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/4/48/Judges-bench.png/revision/latest/scale-to-width-down/185?cb=2018031403190"
-	},
+	}, 
 	{
 		"name":"backCourtProsecutor",
-		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/3/3b/Prosecution.png/revision/latest/scale-to-width-down/185?cb=2018031403220"
-	},
+		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/6/66/Defense.png/revision/latest/scale-to-width-down/185?cb=20180314032038"
+	}, 
+	{
+		"name":"backCourtSide",
+		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/2/22/PW_Co-counsel.png/revision/latest/scale-to-width-down/185?cb=20180314032147"
+	}, 
 	{
 		"name":"backCourtAccused",
 		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/c/c8/Stand.png/revision/latest/scale-to-width-down/185?cb=2018031403222"
-	},
+	}, 
 	{
-		"name":"backCourtWitness1",
+		"name":"backCourtWitness",
 		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/c/c8/Stand.png/revision/latest/scale-to-width-down/185?cb=20180314032222"
-	},
+	}, 
 	{
-		"name":"backCourtWitness2",
-		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/c/c8/Stand.png/revision/latest/scale-to-width-down/185?cb=20180314032222"
-	},
+		"name":"backCourtOutside",
+		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/3/33/Lobby.png/revision/latest/scale-to-width-down/256?cb=20160726191815"
+	}, 
 	{
-		"name":"backCourtJudge2",
-		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/4/48/Judges-bench.png/revision/latest/scale-to-width-down/185?cb=2018031403190"
-	},
+		"name":"backTavern",
+		"url":"https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/thumb/e/e5/Tavern_Brawl_-_promo.png/750px-Tavern_Brawl_-_promo.png?version=963576fddd77c072231aab94f467ea2c"
+	}, 
 	{
 		"name":"메디브",
 		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/2829.png"
-	},
+	}, 
 	{
 		"name":"샐리",
 		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/41118.png"
-	},
+	}, 
 	{
 		"name":"안두인",
 		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/813.png"
-	},
+	}, 
 	{
 		"name":"발리라",
 		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/930.png"
+	}, 
+	{
+		"name":"굴단",
+		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/893.png"
+	}, 
+	{
+		"name":"화난굴단",
+		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/43415.png"
+	}, 
+	{
+		"name":"벨렌",
+		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/9.png"
+	}, 
+	{
+		"name":"카자쿠스",
+		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/40408.png"
+	}, 
+	{
+		"name":"제이나",
+		"url":"http://static.inven.co.kr/image_2011/hs/dataninfo/card/render/637.png"
+	}, 
+	{
+		"name":"여관주인",
+		"url":"http://www.wowcards.info/scans/dark-portal/en/293_The-Perfect-Stout.jpg"
+	}, 
+	{
+		"name":"잠깐",
+		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/0/04/%40rs8.png/revision/latest/scale-to-width-down/185?cb=20160415091313"
+	}, 
+	{
+		"name":"이의있소",
+		"url":"https://vignette.wikia.nocookie.net/aceattorney/images/e/e5/Iuiiss-eum.png/revision/latest/scale-to-width-down/185?cb=20150708023145"
+	}, 
+	{
+		"name":"증거1",
+		"url":"http://kstatic.inven.co.kr/upload/2018/04/07/bbs/i14405321546.jpg"
+	}, 
+	{
+		"name":"버그",
+		"url":"http://upload2.inven.co.kr/upload/2018/01/28/bbs/i16416528251.png"
 	}
 ];
