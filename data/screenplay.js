@@ -1700,7 +1700,7 @@ var script = [
 		"image3":"",
 		"bgm":"",
 		"name":"제이나",
-		"text":"<span style='color:lime;'><span style='color:orange;'>토키</span> 말이에요, 토키. 토키가 뭔지는 아시지요?</span>",
+		"text":"<span style='color:lime;'><span style='color:orange;'>시간땜장이 토키</span> 말이에요. 토키가 뭔지는 아시지요?</span>",
 		"next":"",
 		"select":""
 	}, 
@@ -2222,8 +2222,8 @@ var script = [
 	}, 
 	{
 		"id":187,
-		"background":"증거1",
-		"image1":"none",
+		"background":"none",
+		"image1":"증거1",
 		"image2":"",
 		"image3":"",
 		"bgm":"",
@@ -2462,8 +2462,8 @@ var script = [
 	}, 
 	{
 		"id":207,
-		"background":"",
-		"image1":"",
+		"background":"backCourtAll",
+		"image1":"none",
 		"image2":"",
 		"image3":"",
 		"bgm":"",
@@ -2474,7 +2474,7 @@ var script = [
 	}, 
 	{
 		"id":208,
-		"background":"",
+		"background":"backCourtHammer",
 		"image1":"",
 		"image2":"",
 		"image3":"",
@@ -2715,7 +2715,7 @@ var script = [
 	{
 		"id":228,
 		"background":"",
-		"image1":0,
+		"image1":"",
 		"image2":"이의있소",
 		"image3":"",
 		"bgm":"",
@@ -2762,8 +2762,8 @@ var script = [
 	}, 
 	{
 		"id":232,
-		"background":"backCourtAccused",
-		"image1":"제이나",
+		"background":"none",
+		"image1":"버그",
 		"image2":"",
 		"image3":"",
 		"bgm":"",
