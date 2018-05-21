@@ -172,5 +172,9 @@ var imagelist = [
 	{
 		"name":"버그",
 		"url":"http://upload2.inven.co.kr/upload/2018/01/28/bbs/i16416528251.png"
+	}, 
+	{
+		"name":"얼방",
+		"url":"http://upload2.inven.co.kr/upload/2018/05/21/bbs/i16644181016.jpg"
 	}
 ];
